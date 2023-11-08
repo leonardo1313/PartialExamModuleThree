@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">PartialExamModuleThree</string>
+    <string name="et_enter_grocery_name">Enter grocery name</string>
+    <string name="et_enter_grocery_calorie_number">Enter grocery calorie number</string>
+    <string name="btn_add_grocery_to_list">Add grocery to list</string>
+</resources>
