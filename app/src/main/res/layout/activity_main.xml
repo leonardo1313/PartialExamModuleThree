@@ -42,5 +42,4 @@
         android:layout_height="match_parent"
         tools:listitem="@layout/grocery_item" />
 
-
 </LinearLayout>

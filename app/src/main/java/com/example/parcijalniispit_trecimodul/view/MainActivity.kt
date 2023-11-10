@@ -42,7 +42,10 @@ class MainActivity : AppCompatActivity(), MainView {
 
     fun addGroceryToList(view: View) {
         if (isInputValid()) {
-            mainPresenter.addGroceryToList(etGroceryName.text.toString(), etGroceryCalories.text.toString().toInt())
+            mainPresenter.addGroceryToList(
+                etGroceryName.text.toString(),
+                etGroceryCalories.text.toString().toInt()
+            )
             etGroceryName.setText("")
             etGroceryCalories.setText("")
         }

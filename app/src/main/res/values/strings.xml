@@ -3,4 +3,9 @@
     <string name="et_enter_grocery_name">Enter grocery name</string>
     <string name="et_enter_grocery_calorie_number">Enter grocery calorie number</string>
     <string name="btn_add_grocery_to_list">Add grocery to list</string>
+    <string name="alert_title">Remove grocery</string>
+    <string name="alert_message">Are you sure you want to remove grocery from the list?</string>
+    <string name="btn_positive">Yes</string>
+    <string name="btn_negative">No</string>
+    <string name="kcal"> kcal</string>
 </resources>

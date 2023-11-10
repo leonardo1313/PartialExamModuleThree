@@ -34,12 +34,12 @@ class GroceryAdapter(
         holder.llGroceryItem.setOnClickListener {
             val alertDialog = AlertDialog.Builder(context)
             alertDialog.apply {
-                setTitle("Remove grocery")
-                setMessage("Are you sure you want to remove grocery from the list?")
-                setPositiveButton("Yes") { dialog, id ->
+                setTitle(R.string.alert_title)
+                setMessage(R.string.alert_message)
+                setPositiveButton(R.string.btn_positive) { dialog, id ->
                     mainPresenter.deleteGroceryFromList(groceryList[position])
                 }
-                setNegativeButton("No") { dialog, id ->
+                setNegativeButton(R.string.btn_negative) { dialog, id ->
 
                 }
             }.create().show()
